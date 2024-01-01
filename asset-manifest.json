@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Grupos-sp/static/css/main.48ba1afd.css",
-    "main.js": "/Grupos-sp/static/js/main.adbb4f44.js",
-    "static/media/cargando.gif": "/Grupos-sp/static/media/cargando.459cb7f164c08cfe316c.gif",
-    "static/media/logo.png": "/Grupos-sp/static/media/logo.20e9c6365399944ecd5d.png",
-    "static/media/jps.png": "/Grupos-sp/static/media/jps.79d3655a8577c3aaee25.png",
-    "index.html": "/Grupos-sp/index.html",
-    "main.48ba1afd.css.map": "/Grupos-sp/static/css/main.48ba1afd.css.map",
-    "main.adbb4f44.js.map": "/Grupos-sp/static/js/main.adbb4f44.js.map"
+    "main.css": "/Grupos-sp/Home/static/css/main.48ba1afd.css",
+    "main.js": "/Grupos-sp/Home/static/js/main.8899ad65.js",
+    "static/media/cargando.gif": "/Grupos-sp/Home/static/media/cargando.459cb7f164c08cfe316c.gif",
+    "static/media/logo.png": "/Grupos-sp/Home/static/media/logo.20e9c6365399944ecd5d.png",
+    "static/media/jps.png": "/Grupos-sp/Home/static/media/jps.79d3655a8577c3aaee25.png",
+    "index.html": "/Grupos-sp/Home/index.html",
+    "main.48ba1afd.css.map": "/Grupos-sp/Home/static/css/main.48ba1afd.css.map",
+    "main.8899ad65.js.map": "/Grupos-sp/Home/static/js/main.8899ad65.js.map"
   },
   "entrypoints": [
     "static/css/main.48ba1afd.css",
-    "static/js/main.adbb4f44.js"
+    "static/js/main.8899ad65.js"
   ]
 }
