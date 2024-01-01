@@ -2,7 +2,7 @@
   "name": "grupo_spretz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JuanNahual.github.io/Grupos-sp",
+  "homepage": "https://juannahual.github.io/Grupos-sp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
