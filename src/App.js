@@ -11,19 +11,22 @@ import Empresas from 'containers/pages/Empresas';
 function App() {
   return (
     <Provider store={store}>
+    <Router basename="/Grupos-sp">
       <Router>
         <Routes>
-            {/* Error Display */}
-            <Route path="*" element={<Error404 /> } />
+            
 
             {/* Home Display */}
             <Route path="/Home" element={<Home /> } />
             <Route path="/Contacto" element={<Contacto /> } />
             <Route path="/Empresas" element={<Empresas /> } />
+            {/* Error Display */}
+            <Route path="*" element={<Error404 /> } />
 
 
 
         </Routes>
+      </Router>
       </Router>
     </Provider>
     
