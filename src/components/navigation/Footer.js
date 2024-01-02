@@ -15,25 +15,7 @@ function Footer() {
             />
           </div>
 
-          <div className="sm:col-span-2 md:col-span-3">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-              {/* Redes Sociales */}
-              <div>
-                <p className="font-semibold text-gray-300 mb-2">
-                  Redes Sociales
-                </p>
-                <div className="flex items-start space-y-2">
-                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
-                    Facebook
-                  </a>
-                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
-                    Twitter
-                  </a>
-                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
-                    Instagram
-                  </a>
-                </div>
-              </div>
+          
 
               {/* Información de la Empresa */}
               <div>
