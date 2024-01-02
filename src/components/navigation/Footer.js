@@ -17,7 +17,87 @@ function Footer() {
 
           <div className="sm:col-span-2 md:col-span-3">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-              {/* ... Contenido del Footer ... */}
+              {/* Redes Sociales */}
+              <div>
+                <p className="font-semibold text-gray-300 mb-2">
+                  Redes Sociales
+                </p>
+                <div className="flex items-start space-y-2">
+                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
+                    Facebook
+                  </a>
+                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
+                    Twitter
+                  </a>
+                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
+                    Instagram
+                  </a>
+                </div>
+              </div>
+
+              {/* Información de la Empresa */}
+              <div>
+                <p className="font-semibold text-gray-300 mb-2">
+                  Información de la Empresa
+                </p>
+                <div className="flex items-start flex-col space-y-2">
+                  <p className="text-gray-400">
+                    Crespo, Entre Ríos
+                  </p>
+                  <p className="text-gray-400">
+                    Rivadavia 2923
+                  </p>
+                  <p className="text-gray-400">
+                    grupospretz@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              {/* Contacto */}
+              <div>
+                <p className="font-semibold text-gray-300 mb-2">
+                  Contacto
+                </p>
+                <div className="flex items-start flex-col space-y-2">
+                  <p className="text-gray-400">
+                    Teléfono: 123-456-789
+                  </p>
+                  <p className="text-gray-400">
+                    Email: contacto@tudominio.com
+                  </p>
+                </div>
+              </div>
+
+              {/* Formulario de Contacto */}
+              <div>
+                <p className="font-semibold text-gray-300 mb-2">
+                  Consultas
+                </p>
+                <form>
+                  {/* Agrega los campos del formulario según tus necesidades */}
+                  <input
+                    type="text"
+                    placeholder="Nombre"
+                    className="w-full p-2 mb-2 border border-gray-500 rounded"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    className="w-full p-2 mb-2 border border-gray-500 rounded"
+                  />
+                  <textarea
+                    placeholder="Mensaje"
+                    rows="3"
+                    className="w-full p-2 mb-2 border border-gray-500 rounded"
+                  />
+                  <button
+                    type="submit"
+                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+                  >
+                    Enviar
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
