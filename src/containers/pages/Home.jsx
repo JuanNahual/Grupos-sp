@@ -3,6 +3,7 @@ import Navbar from "components/navigation/Navbar"
 import Layout from "hocs/layouts/Layout"
 import Header from "components/Home/Header"
 import Section from "components/Home/Section"
+import Banner from "components/Home/Banner"
 
 
 function Home(){
@@ -12,6 +13,10 @@ function Home(){
 			<div className="pt-28">
 			
 			<Header/>
+			<div>
+			<Banner />
+			</div>
+			
 			
 			<Section/>
 			<div className="pt-28">

@@ -2,7 +2,6 @@
   "name": "grupo_spretz",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,9 +13,11 @@
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
+    "react-slick": "^0.29.0",
     "redux": "^4.1.1",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
     "typescript": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
@@ -48,10 +49,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
-
   },
   "homepage": "https://juannahual.github.io/Grupos-sp"
-  
-
 }
-

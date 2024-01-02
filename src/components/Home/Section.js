@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from 'assets/image/jps.png';
+import logo2 from 'assets/image/logo_embale.jpg';
 
 const ThreeSections = () => {
   return (
@@ -10,13 +11,13 @@ const ThreeSections = () => {
         <div className="md:w-1/3 md:mb-0">
           <img
             src={logo}
-            alt="Sección 1"
+            alt="JPS EQUIPAMIENTOS"
             className="w-full h-auto rounded"
           />
         </div>
         {/* Descripción a la derecha en dispositivos grandes */}
         <div className="md:w-2/3 md:pl-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-4">Sección 1</h2>
+          <h2 className="text-2xl font-bold mb-4">JPS EQUIPAMIENTOS</h2>
           <p>
             Descripción de la primera sección. Puedes agregar más contenido aquí.
           </p>
@@ -34,14 +35,14 @@ const ThreeSections = () => {
         {/* Imagen a la derecha en dispositivos grandes */}
         <div className="md:w-1/3 md:mb-0">
           <img
-            src={logo}
+            src={logo2}
             alt="Sección 2"
             className="w-full h-auto rounded"
           />
         </div>
         {/* Descripción a la izquierda en dispositivos grandes */}
         <div className="md:w-2/3 md:pr-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-4">Sección 2</h2>
+          <h2 className="text-2xl font-bold mb-4">EMBALE DESCARTABLES</h2>
           <p>
             Descripción de la segunda sección. Puedes agregar más contenido aquí.
           </p>

@@ -15,25 +15,7 @@ function Footer() {
             />
           </div>
 
-          <div className="sm:col-span-2 md:col-span-3">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-              {/* Redes Sociales */}
-              <div>
-                <p className="font-semibold text-gray-300 mb-2">
-                  Redes Sociales
-                </p>
-                <div className="flex items-start space-y-2">
-                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
-                    Facebook
-                  </a>
-                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
-                    Twitter
-                  </a>
-                  <a href="#" className="text-gray-400 hover:underline hover:text-blue-500">
-                    Instagram
-                  </a>
-                </div>
-              </div>
+          
 
               {/* Información de la Empresa */}
               <div>
@@ -100,14 +82,14 @@ function Footer() {
               </div>
             </div>
           </div>
-        </div>
+        
 
         <hr className="my-6 border-gray-600 md:my-8" />
 
         <p className="font-sans p-4 text-center text-gray-300">
           © 2023 Inc. All rights reserved.
         </p>
-      </div>
+      
     </footer>
   );
 }
