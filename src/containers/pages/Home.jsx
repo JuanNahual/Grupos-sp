@@ -11,18 +11,18 @@ function Home(){
 		<Layout>
 			<Navbar/>
 			
-			<div className="pt-28">
+			
 			
 			<Header/>
 			
 			<Banner />
 			
 			<Section/>
-			<div className="pt-28">
 			
-			</div>
-			</div>
-			<Footer/>
+			
+			
+			
+		<Footer/>
 		</Layout>
 	)
 }

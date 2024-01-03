@@ -44,7 +44,7 @@ const CustomBanner = () => {
   return (
     <div className="bg-gray-800 text-white py-16">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-extrabold mb-4 text-center">Nombre de tu Empresa</h2>
+        
         <Slider {...settings}>
           {bannerData.map((item, index) => (
             <div key={index} className="relative">
