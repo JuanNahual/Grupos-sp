@@ -2,12 +2,12 @@ import { Typewriter } from 'react-simple-typewriter';
 
 function Header() {
   return (
-    <header className="bg-blue-500 text-white text-center py-16">
+    <header className="bg-black text-white text-center py-16">
       <div className="container mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4">
-          Podemos <span> </span>
+          Podemos ayudarte a  <span> </span>
           <Typewriter
-            words={['crecer']}
+            words={['empezar','crecer','expandirte']}
             loop={0}
             cursor
             cursorStyle='_'

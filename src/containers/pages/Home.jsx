@@ -10,17 +10,15 @@ function Home(){
 	return (
 		<Layout>
 			<Navbar/>
+			
 			<div className="pt-28">
 			
 			<Header/>
-			<div>
-			<Banner />
-			</div>
 			
+			<Banner />
 			
 			<Section/>
 			<div className="pt-28">
-
 			
 			</div>
 			</div>
@@ -28,5 +26,4 @@ function Home(){
 		</Layout>
 	)
 }
-export default Home
-
+export default Home;
