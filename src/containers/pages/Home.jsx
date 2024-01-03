@@ -11,7 +11,7 @@ function Home(){
 		<Layout>
 			<Navbar/>
 			
-			
+			<div className="pt-28">
 			
 			<Header/>
 			
@@ -20,7 +20,7 @@ function Home(){
 			<Section/>
 			
 			
-			
+			</div>
 			
 		<Footer/>
 		</Layout>
