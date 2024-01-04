@@ -10,10 +10,10 @@ function Header() {
             words={['empezar','crecer','expandirte']}
             loop={0}
             cursor
-            cursorStyle='_'
+            cursorStyle=' '
             typeSpeed={70}
             deleteSpeed={50}
-            delaySpeed={1000}
+            delaySpeed={400}
           />
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-8">

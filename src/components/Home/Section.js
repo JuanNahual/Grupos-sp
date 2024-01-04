@@ -4,7 +4,7 @@ import logo2 from 'assets/image/logo_embale.jpg';
 
 const ThreeSections = () => {
   return (
-    <div className="container mx-auto mt-8 mb-8">
+    <div className="container mx-auto mt-8">
       {/* Sección 1 */}
       <div className="flex flex-col md:flex-row items-center justify-between bg-gray-200 p-8 rounded">
         {/* Imagen a la izquierda en dispositivos grandes */}
@@ -17,7 +17,7 @@ const ThreeSections = () => {
         </div>
         {/* Descripción a la derecha en dispositivos grandes */}
         <div className="md:w-2/3 md:pl-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-4">JPS EQUIPAMIENTOS</h2>
+          <h2 className="text-2xl font-bold mb-4"></h2>
           <p>
             Descripción de la primera sección. Puedes agregar más contenido aquí.
           </p>
@@ -42,7 +42,7 @@ const ThreeSections = () => {
         </div>
         {/* Descripción a la izquierda en dispositivos grandes */}
         <div className="md:w-2/3 md:pr-8 flex flex-col justify-center">
-          <h2 className="text-2xl font-bold mb-4">EMBALE DESCARTABLES</h2>
+          <h2 className="text-2xl font-bold mb-4"></h2>
           <p>
             Descripción de la segunda sección. Puedes agregar más contenido aquí.
           </p>

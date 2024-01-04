@@ -15,81 +15,83 @@ function Footer() {
             />
           </div>
 
-          
-
-              {/* Información de la Empresa */}
-              <div>
-                <p className="font-semibold text-gray-300 mb-2">
-                  Información de la Empresa
+          {/* Información de la Empresa */}
+          <div className="sm:col-span-2 md:col-span-1 sm:col-start-1 md:col-start-2">
+            <div className="text-center">
+              <p className="font-semibold text-gray-300 mb-2">
+                Información de la Empresa
+              </p>
+              <div className="flex flex-col space-y-2">
+                <p className="text-gray-400 text-center">
+                  Crespo, Entre Ríos
                 </p>
-                <div className="flex items-start flex-col space-y-2">
-                  <p className="text-gray-400">
-                    Crespo, Entre Ríos
-                  </p>
-                  <p className="text-gray-400">
-                    Rivadavia 2923
-                  </p>
-                  <p className="text-gray-400">
-                    grupospretz@gmail.com
-                  </p>
-                </div>
-              </div>
-
-              {/* Contacto */}
-              <div>
-                <p className="font-semibold text-gray-300 mb-2">
-                  Contacto
+                <p className="text-gray-400 text-center">
+                  Rivadavia 2923
                 </p>
-                <div className="flex items-start flex-col space-y-2">
-                  <p className="text-gray-400">
-                    Teléfono: 123-456-789
-                  </p>
-                  <p className="text-gray-400">
-                    Email: contacto@tudominio.com
-                  </p>
-                </div>
-              </div>
-
-              {/* Formulario de Contacto */}
-              <div>
-                <p className="font-semibold text-gray-300 mb-2">
-                  Consultas
+                <p className="text-gray-400 text-center">
+                  grupospretz@gmail.com
                 </p>
-                <form>
-                  {/* Agrega los campos del formulario según tus necesidades */}
-                  <input
-                    type="text"
-                    placeholder="Nombre"
-                    className="w-full p-2 mb-2 border border-gray-500 rounded"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    className="w-full p-2 mb-2 border border-gray-500 rounded"
-                  />
-                  <textarea
-                    placeholder="Mensaje"
-                    rows="3"
-                    className="w-full p-2 mb-2 border border-gray-500 rounded"
-                  />
-                  <button
-                    type="submit"
-                    className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
-                  >
-                    Enviar
-                  </button>
-                </form>
               </div>
             </div>
           </div>
-        
 
-        <hr className="my-6 border-gray-600 md:my-8" />
+          {/* Contacto */}
+          <div className="sm:col-span-2 md:col-span-1 sm:col-start-1 md:col-start-3">
+            <div className="text-center">
+              <p className="font-semibold text-gray-300 mb-2">
+                Contacto
+              </p>
+              <div className="flex flex-col space-y-2">
+                <p className="text-gray-400 text-center">
+                  Teléfono: 123-456-789
+                </p>
+                <p className="text-gray-400 text-center">
+                  Email: contacto@tudominio.com
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <p className="font-sans p-4 text-center text-gray-300">
-          © 2023 Inc. All rights reserved.
-        </p>
-      
+          {/* Formulario de Contacto */}
+          <div className="sm:col-span-2 md:col-span-1 sm:col-start-1 md:col-start-4">
+            <div className="text-center">
+              <p className="font-semibold text-gray-300 mb-2">
+                Cualquier duda envíanos tu consulta
+              </p>
+              <form>
+                {/* Agrega los campos del formulario según tus necesidades */}
+                <input
+                  type="text"
+                  placeholder="Nombre"
+                  className="w-full p-2 mb-2 border border-gray-500 rounded"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="w-full p-2 mb-2 border border-gray-500 rounded"
+                />
+                <textarea
+                  placeholder="Mensaje"
+                  rows="3"
+                  className="w-full p-2 mb-2 border border-gray-500 rounded"
+                />
+                <button
+                  type="submit"
+                  className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"
+                >
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr className="my-6 border-gray-600 md:my-8" />
+
+      <p className="font-sans p-4 text-center text-gray-300">
+        © 2023 Inc. All rights reserved.
+      </p>
     </footer>
   );
 }
