@@ -9,6 +9,7 @@ function Empresas(){
 			<Navbar/>
 			<div className="pt-28">
 			<Header/>
+			Hola
 			
 			</div>
 			<Footer/>
