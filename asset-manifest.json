@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/Grupos-sp/static/css/main.8c5d47ac.css",
-    "main.js": "/Grupos-sp/static/js/main.32ea2734.js",
+    "main.css": "/Grupos-sp/static/css/main.814804b4.css",
+    "main.js": "/Grupos-sp/static/js/main.8ee8941f.js",
     "static/media/bannerimg3.jpg": "/Grupos-sp/static/media/bannerimg3.b43c773bfd354acd4e00.jpg",
     "static/media/bannerimg2.jpg": "/Grupos-sp/static/media/bannerimg2.413d3187acab73c222c8.jpg",
     "static/media/bannerimg4.jpg": "/Grupos-sp/static/media/bannerimg4.6aeb1b63b35c0b85c65b.jpg",
     "static/media/bannerimg.jpg": "/Grupos-sp/static/media/bannerimg.4ef4340b6ada8c8e9443.jpg",
-    "static/media/cargando.gif": "/Grupos-sp/static/media/cargando.459cb7f164c08cfe316c.gif",
     "static/media/logo.png": "/Grupos-sp/static/media/logo.20e9c6365399944ecd5d.png",
     "static/media/logo_embale.jpg": "/Grupos-sp/static/media/logo_embale.fdef8e29e54631832dc0.jpg",
     "static/media/jps.png": "/Grupos-sp/static/media/jps.79d3655a8577c3aaee25.png",
@@ -15,11 +14,11 @@
     "static/media/slick.ttf": "/Grupos-sp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Grupos-sp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Grupos-sp/index.html",
-    "main.8c5d47ac.css.map": "/Grupos-sp/static/css/main.8c5d47ac.css.map",
-    "main.32ea2734.js.map": "/Grupos-sp/static/js/main.32ea2734.js.map"
+    "main.814804b4.css.map": "/Grupos-sp/static/css/main.814804b4.css.map",
+    "main.8ee8941f.js.map": "/Grupos-sp/static/js/main.8ee8941f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c5d47ac.css",
-    "static/js/main.32ea2734.js"
+    "static/css/main.814804b4.css",
+    "static/js/main.8ee8941f.js"
   ]
 }
